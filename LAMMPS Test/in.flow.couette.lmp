@@ -61,7 +61,7 @@ fix	     4 all enforce2d
 
 # Run
 
-timestep	0.003
+timestep	0.003 # size of timestep
 thermo		500
 thermo_modify	temp mobile
 
@@ -75,4 +75,4 @@ dump		1 all atom 500 dump.flow
 #		zoom 1.6 adiam 1.2
 #dump_modify	3 pad 5
 
-run		10000
+run		10000 # run 10000 timesteps

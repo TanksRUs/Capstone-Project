@@ -1,0 +1,5 @@
+# 2D granular flow simulation
+units	si
+dimension	2
+boundary	p f p
+atom_style	sphere
